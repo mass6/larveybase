@@ -13,5 +13,5 @@
 
 Route::get('/', function()
 {
-	return 'Favotite movie: ' . \Insight\Entities\Movie::getFavorite();
+	return View::make('home');
 });
