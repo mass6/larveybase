@@ -6,7 +6,7 @@
 <body>
 <h1>Home</h1>
 <p>
-    <img src="{{ URL::asset('/images/booty.png') }}">
+    <img src="{{ URL::asset('images/booty.png') }}">
 </p>
 </body>
 </html>
